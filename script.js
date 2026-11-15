@@ -187,7 +187,9 @@ document.querySelectorAll("[data-cv]").forEach((b) => {
     const a = document.createElement("a");
     a.href = "assets/curriculo.pdf";
     a.download = "Curriculo_Jose_Luiz_Junior.pdf";
+    document.body.appendChild(a);
     a.click();
+    a.remove();
   };
 });
 // partículas

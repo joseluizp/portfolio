@@ -634,7 +634,6 @@ nav,
   font-family: var(--f);
 }
 
-/* Ícones de tecnologia flutuando ao redor da animação de partículas */
 .fl {
   position: absolute;
   inset: 0;
